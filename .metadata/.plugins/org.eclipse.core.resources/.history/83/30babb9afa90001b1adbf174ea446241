@@ -1,0 +1,26 @@
+
+
+/*패키지와 import 연습*/
+
+
+public class Test69 {
+
+	public static void main(String[] args) {
+		
+		//1. 다른 패키지에 있는 클래스 사용하기 위해 
+		// 	 패키지명을 포함하는 경로명을 사용 해야 한다.
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+		
+		//System클래스의 in상수 내부에 new InputStream();객체가 저장되어 있다.
+		//InputStream객체의 역할
+		//-> 채팅 시 데이터를 입력하면 
+		//   바이트 단위로 데이터를 읽어 들이기 위한 스트림통로 역할을 한다.
+		
+		System.out.println(scanner.next());
+		
+		//java.util.ArrayList arrayList; 가능
+				 // ArrayList arrayList2; 안됨!!
+
+	}
+
+}

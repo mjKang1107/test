@@ -1,0 +1,16 @@
+package A;
+
+//다름 패키지에 속해 있는 ArrayList클래스를 현재 A패키지에 속해 있는 B클래스 내부에서 사용하기위해
+//사용하겠다고 말해야한다. -> import
+
+import java.util.ArrayList;
+
+
+public class B {
+
+	public static void main(String[] args) {
+		ArrayList arrayList;
+		//위에 import 선언해주면 에러 안뜸
+	}
+
+}

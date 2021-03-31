@@ -1,0 +1,10 @@
+
+public class Test61 {
+
+	public static void main(String[] args) {
+		//Point 클래스로부터 객체 생성시 기본생성자를 호출!
+		Point p = new Point();
+
+	}
+
+}

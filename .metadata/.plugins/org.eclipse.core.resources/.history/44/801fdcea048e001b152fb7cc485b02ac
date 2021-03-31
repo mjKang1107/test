@@ -1,0 +1,21 @@
+//System.out.println()메소드 호출 부분 직접 만들어 보기
+
+//System1클래스 만들기
+class System1{
+	
+	
+	
+	
+	
+	
+}
+
+
+public class Test68 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

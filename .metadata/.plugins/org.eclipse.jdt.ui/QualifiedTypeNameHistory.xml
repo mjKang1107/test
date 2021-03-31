@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Puppy"/>
+    <fullyQualifiedTypeName name="fruitSeller"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.util.function.BiConsumer"/>
+    <fullyQualifiedTypeName name="java.sql.SQLClientInfoException"/>
+    <fullyQualifiedTypeName name="Person"/>
+    <fullyQualifiedTypeName name="Goods"/>
+    <fullyQualifiedTypeName name="Fruitseller"/>
+    <fullyQualifiedTypeName name="Number"/>
+    <fullyQualifiedTypeName name="Point"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="Animal"/>
+    <fullyQualifiedTypeName name="FruitSeller"/>
+    <fullyQualifiedTypeName name="FruitBuyer"/>
+    <fullyQualifiedTypeName name="SongManager"/>
+    <fullyQualifiedTypeName name="Song"/>
+    <fullyQualifiedTypeName name="Car"/>
+    <fullyQualifiedTypeName name="MyDate"/>
+    <fullyQualifiedTypeName name="java.lang.VerifyError"/>
+    <fullyQualifiedTypeName name="PrintStream1"/>
+    <fullyQualifiedTypeName name="System1"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="lib.A"/>
+    <fullyQualifiedTypeName name="java.security.AlgorithmConstraints"/>
+    <fullyQualifiedTypeName name="Test"/>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
+    <fullyQualifiedTypeName name="Student"/>
+</qualifiedTypeNameHistroy>
