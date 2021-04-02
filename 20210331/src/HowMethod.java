@@ -44,19 +44,20 @@ class PerimeterMath { // 직사각형의 둘레계산클래스
 		SimpleMath s = new SimpleMath();
 		// {(가로) ＋ (세로)} × 2 <--직사각형 둘레 리턴
 		//(가로*2) + (세로*2)
-		result2 = s.add(s.mul(width, 2),s.mul(height,2));
-		return result2 ; // 직사각형 둘레 리턴
+		return  s.add(s.mul(width, 2),s.mul(height,2));
+		// 직사각형 둘레 리턴
 		
 	}
 }
 
 public class HowMethod {
 	public static void main(String[] args) {
-	
+	AreaMath am = new AreaMath();
 	//참고!! 원넓이 구하는 메소드 호출 , 호출시 2.4전달
-
+	System.out.println("원의 넓이 : " + am.calCircleArea(2.4));
 	//참고!! 직사각형 둘레 구하는 메소드 호출, 호출시  2.0, 4.0 전달
-
+	PerimeterMath pm = new PerimeterMath();
+	System.out.println("직사각형의 둘레 : " + pm.calRectanglePeri(2.0, 4.0));
 		// 출력 결과
 		// 원의 넓이 : 18.09504
 		// 직사각형 둘레 : 12.0
