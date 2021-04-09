@@ -1,0 +1,53 @@
+<상속>
+p328~331 확인문제
+
+1. 자바의 상속에 대한 설명입니다. 맞는 것에 o표, 틀린 것에 x표 하세요.
+
+1)자바는 다중 상속을 허용한다. (x)
+2)부모의 메소드를 자식 클래스에서 재정의(오버라이딩)할 수 있다. (o)
+3)부모의 private 접근 제한을 갖는 필드와 메소드는 상속의 대상이 아니다.(o)
+4)protected 멤버는 같은 패키지의 모든 클래스와 다른 패키지의 자식 클래스만 접근할 수 있다.(o)
+
+2. 메소드 재정의(오버라이딩)에 대한 설명입니다. 맞는 것에 o표, 틀린 것에 X표 하세요.
+1)부모의 메소드는 숨김 효과가 나타난다.(o)
+2)재정의 시 접근 제한을 더 강하게 할 수 있다.(x)
+3)＠Override를 붙이면 컴파일러가 재정의를 확인한다.(o)
+4)부모 메소드를 호출하고싶다면 super 키워드를 사용할 수 있다.(o)
+
+3.final클래스, final필드, final 메소드에 대한 설명입니다. 맞는 것에 o표, 틀린 것에 X표 하세요.
+1)모두 상속과 관련이 있다.(o)
+2)final메소드를 가진 클래스는 부모 클래스가 될 수 없다.(o)
+3)final메소드는 재정의를 할 수 없다.(x)
+4)final클래스는 final필드가 반드시 있어야 한다.(o)
+
+
+4. Parent 클래스를 상속해서 Child 클래스를 다음과 같이 작성했는데, Child 클래스의 생성자에서 컴파일 에러가 발생했습니다.
+ 그 이유를 설명해보세요.
+ -> 부모클래스 호출을 잘못하였음 super로 해야함!
+ 
+ 
+public class Parent{
+	
+	public String nameString;
+	
+	public Parent(String name) {
+		this.nameString = name;
+	}
+	
+	
+}
+
+class Child extends Parent{
+	
+	private int studentNo;
+	
+	public Child(String name, int studentNo) {
+		
+		//this.nameString = name; -> 부모클래스 호출을 잘 못하였다.
+		super(name); -> super로 하면 정상적으로 실행됨
+		this.studentNo = studentNo;
+		
+	}
+	
+}
+
