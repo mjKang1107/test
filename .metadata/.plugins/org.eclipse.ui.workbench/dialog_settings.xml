@@ -14,6 +14,13 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\ITWILL\Desktop\7.zip"/>
+			<item value="C:\Users\ITWILL\Desktop\6.zip"/>
+			<item value="C:\Users\ITWILL\Desktop\5.zip"/>
+			<item value="C:\Users\ITWILL\Desktop\4.zip"/>
+			<item value="C:\Users\ITWILL\Desktop\3.zip"/>
+			<item value="C:\Users\ITWILL\Desktop\2.zip"/>
+			<item value="C:\Users\ITWILL\Desktop\1.zip"/>
 			<item value="C:\Users\ITWILL\Desktop\0330.zip"/>
 			<item value="C:\Users\ITWILL\Desktop\0326.zip"/>
 			<item value="C:\Users\ITWILL\Desktop\0324.zip"/>
@@ -27,9 +34,6 @@
 			<item value="C:\Users\ITWILL\Desktop\0310.zip"/>
 			<item value="C:\Users\ITWILL\Desktop\20210304.zip"/>
 			<item value="C:\Users\ITWILL\Desktop\20210303.zip"/>
-			<item value="C:\Users\ITWILL\Desktop\20210302.zip"/>
-			<item value="C:\Users\ITWILL\Desktop\210226.zip"/>
-			<item value="C:\Users\ITWILL\Desktop\20210225.zip"/>
 		</list>
 	</section>
 	<section name="ZipFileImportWizard">

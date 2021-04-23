@@ -96,14 +96,38 @@ class AirUnit extends Unit{
 }
 
 //공중 유닛 중에서 DropShip클래스 만들기 <--공중유닛이므로 AirUnit클래스 상속받기
-//								<--기계유닛이므로 Re
+//								<--기계유닛이므로 Repairable 인터페이스 구현받기
+
+class DropShip extends AirUnit implements Repairable{
+
+	//현재 체력 125 저장
+	DropShip() {
+		super(125);
+		hitPoint = MAX_HP;
+	}
+	
+	public String toString() {
+		return "DropShip";
+	}
+	
+}
 
 
 public class Test112 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Tank t = new Tank();
+		DropShip d = new DropShip();
+		
+		Marine m = new Marine();
+		SCV s = new SCV();
+		
+		s.repair(t); //SCV객체가 Tank객체를 수리하도록 한다.
+		s.repair(d); //SCV객체가 DropShip객체를 수리하도록 한다.
+		
+		//s.repair(m); //Marine객체는 GroundUnit만 상속받고 Repairable 인터페이스는 구현받지 않아서 에러남
+		
 	}
 
 }
